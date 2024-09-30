@@ -28,7 +28,7 @@ public class FibonacciWithSpaceUtilization {
 
     }
     public static void main(String[] args) {
-        int number = 0;
+        int number = 5;
         System.out.println(fib(number));
 
     }
