@@ -31,5 +31,13 @@ public class DuplicateCharacters {
           }
       }
 
+//        for(Map.Entry<Character,Integer> entry : hash.entrySet())
+//        {
+//            if(entry.getValue()>1)
+//            {
+//                System.out.println(entry.getKey());
+//            }
+//        }
+
     }
 }
