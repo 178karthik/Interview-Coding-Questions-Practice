@@ -21,7 +21,7 @@ public class TopKFrequentElements {
 
         List<Map.Entry<Integer, Integer>> map = new ArrayList<>(hash.entrySet());
 
-        map.sort((a, b) -> Integer.compare(b.getValue(), a.getValue()));
+        map.sort((a, b) -> Integer.compare(b.getValue(),a.getValue()));
 
 
         for (int j = 0; j < k; j++) {
