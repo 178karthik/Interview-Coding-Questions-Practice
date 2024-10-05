@@ -12,12 +12,12 @@ public class TwoSum {
 
         List<Integer> indexes = new ArrayList();
 
-        int target = 10;
+        int target = 13;
 
 
         for(int i=0;i<nums.length;i++)
         {
-            for(int j=i;j<nums.length;j++)
+            for(int j=i+1;j<nums.length;j++)
             {
                 if((nums[i]+nums[j])==target)
                 {
