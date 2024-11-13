@@ -29,14 +29,5 @@ public class PushGivenIntegerToRight {
         }
         System.out.println(result.toString());
 
-//        while(k<a.length-1)
-//        {
-//            result.add(1);
-//        }
-
-
-
-
-
     }
 }
