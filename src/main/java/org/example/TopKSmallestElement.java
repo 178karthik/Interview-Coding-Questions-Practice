@@ -13,8 +13,8 @@ public class TopKSmallestElement {
 
         for(int i=0; i<k ;i++)
         {
+
            System.out.println(a.poll());
         }
-
     }
 }
