@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.Practice2.StringReverseWithoutSpecialCharacters;
+
 
 public class reverserSentenceWithoutSpecialCharacters {
 
