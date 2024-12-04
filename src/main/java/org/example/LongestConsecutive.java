@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class LongestConsecutive {
     public static void main(String[] args) {
-        int arr[]={0, 1, 8, 10};
+        int arr[]={0, 1,2, 8, 10};
         System.out.println(longestConsecutive(arr));
     }
 
@@ -25,14 +25,14 @@ public class LongestConsecutive {
         {
             currentLength++;
             map.put(nextNum,Boolean.TRUE);
-            nextNum++;
+            nextNum=nextNum+1;
         }
         int prevNum = num-1;
         while(map.containsKey(prevNum) && map.get(prevNum)==false )
         {
             currentLength++;
             map.put(prevNum,Boolean.TRUE);
-            prevNum--;
+            prevNum= prevNum-1;
         }
 
         consecutiveLength=Math.max(currentLength,consecutiveLength);

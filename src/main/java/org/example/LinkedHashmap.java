@@ -42,6 +42,7 @@ public class LinkedHashmap {
             if(hash.get(i)==1)
             {
                 return i ;
+
             }
         }
         return 0;
